@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.bson.types.ObjectId;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.web.filter.GenericFilterBean;
 
 import com.bridgelabz.service.TokenService;
@@ -18,6 +19,7 @@ import com.bridgelabz.service.TokenService;
  * Date : 10/07/2018
  * Purpose :JWTFilter is used for request mapping
  */
+@Configuration
 public class JWTFilter extends GenericFilterBean {
 
 	private TokenService tokenService;

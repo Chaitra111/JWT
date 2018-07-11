@@ -5,7 +5,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 /**
  * @author Chaitra Ankolekar
- * Date : 18/05/2018
+ * Date : 10/07/2018
  * Purpose :User pojo class with getters and setters method
  */
 @Document
